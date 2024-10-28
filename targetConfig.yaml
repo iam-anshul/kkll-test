@@ -3,7 +3,7 @@ targetConfig:
     containers:
     - containerName: "python-container"
       containerImage: "python"
-      containerTag: "3.9"
+      containerTag: "3.10"
     name: python-deployment
     type: deployment
     namespace: default
