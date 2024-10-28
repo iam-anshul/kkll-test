@@ -1,0 +1,10 @@
+targetConfig:
+  - targetName: python-cd
+    containers:
+    - containerName: "python-container"
+      containerImage: "python"
+      containerTag: "3.9"
+    name: python-deployment
+    type: deployment
+    namespace: default
+    scope: nameScoped
